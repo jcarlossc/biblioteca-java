@@ -18,6 +18,8 @@ public class Aluno extends Usuario {
     }
 
     /**
+     * Método abstrato
+     * 
      * @return tipo de usuário 
      */
     @Override

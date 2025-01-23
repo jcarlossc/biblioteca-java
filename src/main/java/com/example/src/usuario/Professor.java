@@ -1,5 +1,11 @@
 package com.example.src.usuario;
 
+/**
+ * Classe Professor que estende Usuário
+ * 
+ * @author Carlos da Costa
+ * @version 1.0
+ */
 public class Professor extends Usuario {
 
     private final String TIPO_USUARIO = "Professor";
@@ -15,6 +21,8 @@ public class Professor extends Usuario {
     }
 
     /**
+     * Método abstrato
+     * 
      * @return tipo de usuário 
      */
     @Override

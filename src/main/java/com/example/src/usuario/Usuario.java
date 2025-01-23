@@ -23,7 +23,6 @@ public abstract class Usuario {
     }
 
     /**
-     * 
      * @return tipo de usuário
      */
     public abstract String getTipoUsuario();
@@ -46,6 +45,8 @@ public abstract class Usuario {
 
     /**
      * Gera hashCode do usuário
+     * 
+     * @return hashCode do Usuário
      */
     @Override
     public int hashCode() {
@@ -57,7 +58,9 @@ public abstract class Usuario {
     }
 
     /**
-     * Compara Objetos
+     * Método que compara Objetos
+     * 
+     * @return boolean
      */
     @Override
     public boolean equals(Object obj) {
