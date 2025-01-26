@@ -1,29 +1,27 @@
 package com.example;
 
+import com.example.src.emprestimo.Emprestimo;
 import com.example.src.exemplar.Livro;
 import com.example.src.exemplar.Revista;
 import com.example.src.usuario.Aluno;
-import com.example.src.usuario.Professor;
 
 public class Main {
     public static void main(String[] args) {
 
-        Livro l1 = new Livro("Assim falou Zaratustra", "123456");
-        System.out.println(l1);
-        System.out.println(l1.getTipoExemplar());
+        Aluno aluno = new Aluno("carlos", "123456");
 
-        Revista r1 = new Revista("Veja", "329865");
-        System.out.println(r1);
-        System.out.println(r1.getTipoExemplar());
+        Livro l1 = new Livro("Assim falou Zaratustra", "Friedrich Nietzsche", "789456");
+        Livro l2 = new Livro("Humano, demasiado humano", "Friedrich Nietzsche", "123456");
+        Revista r1 = new Revista("Veja", "Abril", "456789");
+        Revista r2 = new Revista("Isto é", "bril", "232323");
 
+        Emprestimo e1 = new Emprestimo(aluno);
+        e1.addEmprestimo(l1);
+        e1.addEmprestimo(l2);
+        e1.addEmprestimo(r1);
+        e1.addEmprestimo(r2);
 
-        Aluno a1 = new Aluno("carlos", "12345678969");
-        System.out.println(a1);
-        System.out.println(a1.getTipoUsuario());
-
-        Professor p1 = new Professor("jose", "98765432111");
-        System.out.println(p1);
-        System.out.println(p1.getTipoUsuario());
+        e1.listarEmprestimos();
         
     }
 }

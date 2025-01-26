@@ -1,9 +1,9 @@
 package com.example.src.usuario;
 
 /**
- * Classe Usuário
+ * Classe Usuário.
  * 
- * @author Carlos da Costa
+ * @author Carlos da Costa.
  * @version 1.0
  */
 public abstract class Usuario {
@@ -12,7 +12,7 @@ public abstract class Usuario {
     private String cpfUsuario;
 
     /**
-     * Método construtor
+     * Método construtor.
      * 
      * @param nomeUsuario
      * @param cpfUsuario
@@ -23,13 +23,13 @@ public abstract class Usuario {
     }
 
     /**
-     * @return tipo de usuário
+     * @return tipo de usuário.
      */
     public abstract String getTipoUsuario();
 
     /**
      * 
-     * @return nome do usuário
+     * @return nome do usuário.
      */
     public String getNomeUsuario() {
         return nomeUsuario;
@@ -37,16 +37,16 @@ public abstract class Usuario {
 
     /**
      * 
-     * @return cpf do usuário
+     * @return cpf do usuário.
      */
     public String getCpfUsuario() {
         return cpfUsuario;
     }
 
     /**
-     * Gera hashCode do usuário
+     * Gera hashCode do usuário.
      * 
-     * @return hashCode do Usuário
+     * @return hashCode do Usuário.
      */
     @Override
     public int hashCode() {
@@ -58,9 +58,9 @@ public abstract class Usuario {
     }
 
     /**
-     * Método que compara Objetos
+     * Método que compara Objetos.
      * 
-     * @return boolean
+     * @return boolean.
      */
     @Override
     public boolean equals(Object obj) {
@@ -85,9 +85,9 @@ public abstract class Usuario {
     }
 
     /**
-     * Converte Objeto para string
+     * Converte Objeto para string.
      * 
-     * @return representação string do Objeto
+     * @return representação string do Objeto.
      */
     @Override
     public String toString() {

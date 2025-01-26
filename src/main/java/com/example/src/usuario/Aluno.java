@@ -1,14 +1,14 @@
 package com.example.src.usuario;
 
 /**
- * Classe Aluno que estende Usuário
+ * Classe Aluno que estende Usuário.
  */
 public class Aluno extends Usuario {
     
     private final String TIPO_USUARIO = "Aluno";
 
     /**
-     * Método Construtor
+     * Método Construtor.
      * 
      * @param nomeUsuario
      * @param cpfUsuario
@@ -18,9 +18,9 @@ public class Aluno extends Usuario {
     }
 
     /**
-     * Método abstrato
+     * Método abstrato.
      * 
-     * @return tipo de usuário 
+     * @return tipo de usuário.
      */
     @Override
     public String getTipoUsuario() {
@@ -28,9 +28,9 @@ public class Aluno extends Usuario {
     }
 
     /**
-     * Converte Objeto para string
+     * Converte Objeto para string.
      * 
-     * @return representação string do Objeto
+     * @return representação string do Objeto.
      */
     @Override
     public String toString() {

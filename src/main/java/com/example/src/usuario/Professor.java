@@ -1,9 +1,9 @@
 package com.example.src.usuario;
 
 /**
- * Classe Professor que estende Usuário
+ * Classe Professor que estende Usuário.
  * 
- * @author Carlos da Costa
+ * @author Carlos da Costa.
  * @version 1.0
  */
 public class Professor extends Usuario {
@@ -11,7 +11,7 @@ public class Professor extends Usuario {
     private final String TIPO_USUARIO = "Professor";
 
      /**
-     * Método Construtor
+     * Método Construtor.
      * 
      * @param nomeUsuario
      * @param cpfUsuario
@@ -21,9 +21,9 @@ public class Professor extends Usuario {
     }
 
     /**
-     * Método abstrato
+     * Método abstrato.
      * 
-     * @return tipo de usuário 
+     * @return tipo de usuário. 
      */
     @Override
     public String getTipoUsuario() {
@@ -31,9 +31,9 @@ public class Professor extends Usuario {
     }
 
     /**
-     * Converte Objeto para string
+     * Converte Objeto para string.
      * 
-     * @return representação string do Objeto
+     * @return representação string do Objeto.
      */
     @Override
     public String toString() {
