@@ -18,7 +18,7 @@ Ele (o sistema) é composto por cinco pacotes (calendário, empréstimo, exempla
 * JDK instalado.
 * Visual Studio Code instalado.
 * Git instalado e uma conta no GitHub.
-* Clonar o projeto do GitHub: ''' https://github.com/jcarlossc/biblioteca-java '''.
+* Clonar o projeto do GitHub: '''https://github.com/jcarlossc/biblioteca-java'''.
 
 ## Observação:
 Embora tendo algum conhecimento do idioma inglês, optei por desenvolver este sistema em português por motivos didáticos.
